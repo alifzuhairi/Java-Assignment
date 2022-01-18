@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Test Alert</title>
+<script src ="Test.js" ></script>
+<script>
+function validateForm(){
+	
+	if(document.getElementById('name').value == ''){
+		alert('Name is compulsory.');
+	} else if(!validateEmail(document.getElementById('email').value)){
+		alert('You have entered an invalid email adress!');
+	}else{
+		//everything is valid
+		document.getElementById('form1').submit();
+	}
+}
+</script>
+<link rel = "stylesheet" href="css/mycss.css"></link>
+
+</head>
+<body>
+<form id='form1' action = 'js_process.jsp' method ='POST'>
+<p>Email: <input id="email" type ="text" /></p>
+<p>Name: <input id ="name" type="text"/></p>
+<p><button type ="button" onclick ="validateForm()">Submit</button></p>
+</form>
+
+</body>
+</html>

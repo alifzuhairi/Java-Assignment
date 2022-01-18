@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+p{
+	font-size: 16px;
+	font-family: verdana;
+	color: #000
+
+}
+body{
+	font-size: 20px;
+	font-family: verdana;
+	color: red
+	
+}
+
+.blueocean {
+	font-size: 20px;
+	font-family: verdana;
+	color: #9CC
+}
+
+#submitBtn{
+	font-size: 10px;
+	font-family: arial;
+	color: #FFA
+}
+
+#resetBtn{
+	font-size: 10px;
+	font-family: arial;
+	color: #DAA
+}
+body {
+  background-color:#CBD;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
